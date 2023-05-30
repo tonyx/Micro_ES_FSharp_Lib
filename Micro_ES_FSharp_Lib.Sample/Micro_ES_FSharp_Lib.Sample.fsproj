@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
+
     <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
@@ -22,6 +24,7 @@
 
     <Compile Include="App.fs" />
     <Compile Include="AppVersions.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,7 +32,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Fable.Remoting.Giraffe" Version="5.14.0" />
     <PackageReference Include="FsToolkit.ErrorHandling" Version="4.6.0" />
+    <PackageReference Include="Saturn" Version="0.16.1" />
+    <PackageReference Update="FSharp.Core" Version="7.*" />
+
+    
   </ItemGroup>
 
 </Project>
