@@ -1,10 +1,11 @@
 namespace Tonyx.EventSourcing.Sample.Tags.Models
-open Tonyx.EventSourcing.Utils
 open FSharpPlus
 open System
 open FsToolkit.ErrorHandling
+open Tonyx.EventSourcing.Sample.ClientUtils
 
 module TagsModel =
+
     type Color =
         | Red
         | Green

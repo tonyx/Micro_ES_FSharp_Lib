@@ -3,9 +3,10 @@ open System
 open FSharpPlus
 open FsToolkit.ErrorHandling
 
-open Tonyx.EventSourcing.Utils
+open Tonyx.EventSourcing.Sample.ClientUtils
 
 module CategoriesModel =
+
     type Category =
         {
             Id: Guid

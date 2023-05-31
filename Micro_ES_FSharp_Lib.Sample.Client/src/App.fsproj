@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- <TargetFramework>netstandard2.0</TargetFramework> -->
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.Dom" Version="2.2.0" />
+    <PackageReference Include="Fable.Core" Version="3.2.3" />
+    <PackageReference Include="fable.elmish" Version="4.0.1" />
+    <PackageReference Include="Fable.Elmish.Debugger" Version="4.0.0" />
+    <PackageReference Include="Fable.Elmish.HMR" Version="7.0.0" />
+    <PackageReference Include="Fable.Elmish.React" Version="4.0.0" />
+    <PackageReference Include="Fable.React" Version="9.3.0" />
+    <PackageReference Include="Fable.Remoting.Client" Version="7.25.0" />
+    <PackageReference Include="Feliz" Version="2.6.0" />
+    <PackageReference Include="Feliz.Bulma" Version="3.0.0" />
+    <PackageReference Include="Fulma" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Micro_ES_FSharp_Lib.Shared\Micro_ES_FSharp_Lib.Shared.fsproj" /> 
+  </ItemGroup>
+</Project>

@@ -1,8 +1,8 @@
 namespace Tonyx.EventSourcing.Sample.Todos.Models
 open FSharpPlus
 open System
-open Tonyx.EventSourcing.Utils
 open FsToolkit.ErrorHandling
+open Tonyx.EventSourcing.Sample.ClientUtils
 
 module TodosModel =
     type Todo =
